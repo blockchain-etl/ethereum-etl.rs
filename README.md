@@ -17,7 +17,7 @@ This project is currently in its **Minimum Viable Product (MVP)** stage. It supp
 
 **Supported Functionality:**
 
-*   Export blocks and transactions to CSV files.
+*   Export blocks and transactions to CSV files
 
 **Planned Features:**
 
