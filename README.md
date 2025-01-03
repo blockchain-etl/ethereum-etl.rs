@@ -1,13 +1,9 @@
-# ethereum-etl.rs
-
-This project was developed with the assistance of [gemini-exp-1206](https://aistudio.google.com/app/prompts/new_chat?model=gemini-exp-1206).
-
-Rust implementation of the Ethereum ETL project, providing a CLI for exporting blocks, transactions, and other blockchain data to CSV files
-
 # Ethereum ETL in Rust (ethereum-etl.rs)
 
 [![Rust](https://img.shields.io/badge/rust-lang-blue.svg)](https://www.rust-lang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This project was developed with the assistance of [gemini-exp-1206](https://aistudio.google.com/app/prompts/new_chat?model=gemini-exp-1206).
 
 A high-performance Rust implementation of the [Ethereum ETL](https://github.com/blockchain-etl/ethereum-etl) project. This command-line tool allows you to extract and export Ethereum blockchain data, such as blocks and transactions, to CSV files.
 
