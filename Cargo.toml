@@ -1,0 +1,23 @@
+[package]
+name = "ethereum-etl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+hex = "0.4"
+thiserror = "1.0"
+csv = "1.1"
+chrono = { version = "0.4", features = ["serde"] }
+url = "2.5.0"
+clap = { version = "4.4.18", features = ["derive"] }
+ethers = { version = "2.0.11", features = ["ws", "rustls"] }
+ethers-providers = { version = "2.0.11", features = ["ws", "rustls"] }
+anyhow = "1.0.95"
+futures = "0.3.31"
+
+[dev-dependencies]
+tokio-test = "0.4"
