@@ -1,6 +1,6 @@
 # ethereum-etl.rs
 
-This repository is created with the help of [gemini-exp-1206](https://aistudio.google.com/app/prompts/new_chat?model=gemini-exp-1206)
+This project was developed with the assistance of [gemini-exp-1206](https://aistudio.google.com/app/prompts/new_chat?model=gemini-exp-1206).
 
 Rust implementation of the Ethereum ETL project, providing a CLI for exporting blocks, transactions, and other blockchain data to CSV files
 
@@ -17,7 +17,7 @@ This project is currently in its **Minimum Viable Product (MVP)** stage. It supp
 
 **Supported Functionality:**
 
-*   Export blocks and transactions to CSV files
+*   Export blocks and transactions to CSV files.
 
 **Planned Features:**
 
