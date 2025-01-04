@@ -1,4 +1,4 @@
-# Ethereum ETL in Rust (ethereum-etl.rs)
+# Ethereum ETL in Rust
 
 [![Rust](https://img.shields.io/badge/rust-lang-blue.svg)](https://www.rust-lang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
