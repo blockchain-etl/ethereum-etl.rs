@@ -11,6 +11,7 @@ use providers::get_provider_from_uri;
 use exporters::CsvExporter;
 use std::path::PathBuf;
 use tokio;
+use tracing_subscriber::EnvFilter;
 
 #[derive(Parser, Debug)]
 #[clap(
@@ -56,6 +57,10 @@ struct ExportOpts {
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
+    tracing_subscriber::fmt()
+        .with_env_filter(EnvFilter::from_default_env())
+        .init();
+
     let opts: Opts = Opts::parse();
 
     match opts.subcmd {

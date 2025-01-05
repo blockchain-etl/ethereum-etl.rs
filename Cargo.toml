@@ -18,6 +18,8 @@ ethers = { version = "2.0.11", features = ["ws", "rustls"] }
 ethers-providers = { version = "2.0.11", features = ["ws", "rustls"] }
 anyhow = "1.0.95"
 futures = "0.3.31"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 
 [dev-dependencies]
 tokio-test = "0.4"
